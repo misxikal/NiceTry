@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Finlandica-Regular';
+  src: url(../public/fonts/Finlandica-Regular.ttf);
+}
+@font-face {
+  font-family: 'Finlandica-Bold';
+  src: url(../public/fonts/Finlandica-Bold.ttf);
+}
+
+*{
+  font-family: 'Finlandica-Regular';
+}
+html,body{
+  overflow-x: hidden;
+  width: 100vw;
+  background-image: url(../public/image/back.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

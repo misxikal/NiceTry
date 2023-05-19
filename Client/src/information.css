@@ -1,0 +1,46 @@
+.Info{
+    width: 100%;
+    background-color: rgb(43, 43, 61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Finlandica-Bold';
+    font-size: 50px;
+    color: aqua;
+    margin: 10px;
+}
+.Info p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    width: 60%;
+    margin-bottom: 60px;
+  }
+  @media (max-width:775px)  {
+    p{
+      font-size: 18px;
+  }
+  h1{
+      font-size: 40px;
+  }
+  .Info p{
+    font-size: 25px;
+  }
+}
+  @media (max-width:490px)  {
+    p{
+      font-size: 15px;
+    }
+    h1{
+      font-size: 30px;
+    }
+    .Info p{
+        font-size: 20px;
+    }
+  }

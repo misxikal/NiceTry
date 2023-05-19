@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.05fd68e4.css",
+    "main.js": "/static/js/main.bb6e0b20.js",
+    "static/media/back.jpg": "/static/media/back.560617072bafe65371ff.jpg",
+    "static/media/Finlandica-Regular.ttf": "/static/media/Finlandica-Regular.4b6efb5999aa9d5cdc9f.ttf",
+    "static/media/Finlandica-Bold.ttf": "/static/media/Finlandica-Bold.cfec3c51523169712485.ttf",
+    "index.html": "/index.html",
+    "main.05fd68e4.css.map": "/static/css/main.05fd68e4.css.map",
+    "main.bb6e0b20.js.map": "/static/js/main.bb6e0b20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05fd68e4.css",
+    "static/js/main.bb6e0b20.js"
+  ]
+}

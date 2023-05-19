@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Finlandica-Regular';
+    src: url(../public/fonts/Finlandica-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'Finlandica-Bold';
+    src: url(../public/fonts/Finlandica-Bold.ttf);
+  }
+  
+  *{
+    font-family: 'Finlandica-Regular';
+  }
+.header{
+    max-width: 100%;
+    background-color: rgb(43, 43, 61);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header img{
+    height: 120px;
+    margin: 10px;
+}
+nav{
+    display: flex;
+}
+nav a{
+    padding: 5px 20px;
+    margin: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: aqua;
+    text-decoration: none;
+    color: inherit;
+}
+nav a:hover{
+    background-color: rgb(166, 255, 255);
+}
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.profile #signup{
+    background-color: rgb(107, 107, 107);
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.profile #login{
+    background-color: aqua;
+    font-size: 15px;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.profile #signup:hover{
+    cursor: pointer;
+    background-color: rgb(165, 165, 165);
+}
+.profile #login:hover{
+    cursor: pointer;    
+    background-color: rgb(166, 255, 255);   
+}
+.profile #profile{
+    background-color: aqua;
+    font-size: 15px;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.profile #profile:hover{
+    cursor: pointer;    
+    background-color: rgb(166, 255, 255); 
+}
+.popup-content{
+    background-color: rgb(43, 43, 61);
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    display: none;
+    margin: 25px;
+    font-size:30px;
+    cursor:pointer;
+}
+.menu {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.Window{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Window h1{
+    color: aqua;
+    font-size: 30px;
+    font-family: 'Finlandica-Bold';
+}
+.NameInp{
+    font-family: 'Finlandica-Regular';
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+.TextInp{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+    width: 50%;
+    margin: 15px;
+    text-align: center;
+    outline-color: aqua;
+}
+.inputModal{
+    padding: 10px 30px;
+    margin: 15px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+    text-decoration: none;
+    color: inherit;
+}
+@media (max-width:775px)  {
+    p{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 40px;
+    }
+.header{
+    flex-direction: column;
+}
+.TextInp{
+    width: 70%;
+}
+}
+@media (max-width:490px)  {
+    p{
+        font-size: 15px;
+      }
+      h1{
+        font-size: 30px;
+      }
+nav{
+    flex-direction: column;
+}
+nav a{
+    text-align: center;
+}
+.TextInp{
+    width: 90%;
+}
+}
+@media (max-width:1000px) {
+    .TextInp{
+        width: 60%;
+    }
+}

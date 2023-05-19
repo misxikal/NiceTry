@@ -1,0 +1,163 @@
+html,body{
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../public/image/back.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Afisha{
+  width: 100%;
+}
+.Afisha-content {
+  background: rgba(0, 0, 0, 0.425);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 600px;
+  padding: 50px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  font-family: 'Finlandica-Bold';
+  font-size: 50px;
+  color: aqua;
+  margin: 10px;
+  text-align: center;
+}
+h2{
+  font-family: 'Finlandica-Bold';
+  font-size: 40px;
+  color: aqua;
+  margin: 10px;
+  text-align: center;
+}
+.Afisha-content>p{
+  font-size: 20px;
+  color: white;
+  margin: 50px 0px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.ErrorLogout>button{
+  background-image: linear-gradient(to right, #448ccf 0%, #77bdff  51%, #448ccf  100%);
+  margin: 10px;
+  font-size: 25px;
+  padding: 20px 55px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  display: block;
+}
+
+.ErrorLogout>button:hover{
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.priseZaman{
+  width: 150px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.priseZaman>img{
+  width: 90px;
+}
+.priseZaman p{
+  width: 100%;
+  font-size: 18px;
+}
+.Galeri{
+  background: rgba(0, 0, 0, 0.425);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.photo{
+  display: flex;
+  margin: 10px;
+}
+.photo img{
+  height: 350px;
+}
+.priseList{
+  background-color: rgb(43, 43, 61);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.priseList table{
+  color: white;
+  width: 70%;
+  font-size: 25px;
+  border-collapse: collapse;
+  margin: 20px;
+}
+.priseList td{
+  border-bottom: 1px solid rgb(62, 100, 170);
+  padding: 15px;
+}
+.geolocation{
+  background: rgba(0, 0, 0, 0.425);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.map-adr{
+  width: 100%;
+}
+@media (max-width:775px)  {
+  p{
+    font-size: 18px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+  font-size: 30px;
+}
+
+.photo{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+}
+@media (max-width:490px)  {
+  p{
+    font-size: 15px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .Afisha-content{
+    height: 100%;
+  }
+  .Afisha-content>p{
+    flex-direction: column;
+  }
+}

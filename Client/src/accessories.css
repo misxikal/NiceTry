@@ -1,0 +1,37 @@
+.Equep{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.425);
+    backdrop-filter: blur(10px);
+}
+.Equep{
+    background-color: rgb(43, 43, 61);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Equep>h1{
+    font-family: 'Finlandica-Bold';
+    font-size: 4em;
+    color: aqua;
+    margin: 50px;
+    text-align: center;
+  }
+  .Equep>p{
+    font-family: 'Finlandica-Bold';
+    font-size: 40px;
+    color: aqua;
+  }
+  .Equep table{
+    color: white;
+    width: 70%;
+    font-size: 25px;
+    border-collapse: collapse;
+    margin: 20px;
+  }
+  .Equep td{
+    border-bottom: 1px solid rgb(62, 100, 170);
+    padding: 15px;
+  }
